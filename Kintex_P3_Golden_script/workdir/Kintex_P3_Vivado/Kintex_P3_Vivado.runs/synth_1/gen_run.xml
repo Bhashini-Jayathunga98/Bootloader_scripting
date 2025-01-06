@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xcku11p-ffva1156-2-i" LaunchTime="1736162698">
+  <File Type="VDS-TIMING-PB" Name="Kintex_Golden_wrapper_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Kintex_Golden_wrapper_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="Kintex_Golden_wrapper.dcp"/>
+  <File Type="REPORTS-TCL" Name="Kintex_Golden_wrapper_reports.tcl"/>
+  <File Type="PA-TCL" Name="Kintex_Golden_wrapper.tcl"/>
+  <File Type="RDS-RDS" Name="Kintex_Golden_wrapper.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="Kintex_Golden_wrapper_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="Kintex_Golden_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Kintex_Golden_wrapper_utilization_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/Kintex_Golden/Kintex_Golden.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Kintex_P3_Golden_script/src/rtl/verilog/Kintex_Golden_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../src/rtl/verilog/Kintex_Golden_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1733202586"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Kintex_P3_Golden_script/vitis/output/kintex_upgrade_010100.elf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vitis/output/kintex_upgrade_010100.elf"/>
+        <Attr Name="ImportTime" Val="1707115066"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="ScopedToRef" Val="Kintex_Golden"/>
+        <Attr Name="ScopedToCell" Val="microblaze_0"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Kintex_Golden_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/Kintex_PCIe_QSPI.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../constraints/Kintex_PCIe_QSPI.xdc"/>
+        <Attr Name="ImportTime" Val="1717566928"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

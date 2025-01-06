@@ -1,0 +1,29 @@
+WORKFLOW_OPERATION simulation,dialog;
+
+DEFINE_MEMORY_TYPE microblaze_0_local_memory_lmb_bram_MEM_DEVICE [0x00020000] 32;
+DEFINE_MEMORY_TYPE blk_mem_gen_0_MEM_DEVICE [0x00001000] 32;
+DEFINE_MEMORY_TYPE blk_mem_gen_1_MEM_DEVICE [0x00001000] 32;
+DEFINE_MEMORY_TYPE blk_mem_gen_2_MEM_DEVICE [0x00001000] 32;
+
+ADDRESS_MAP microblaze_0 MICROBLAZE-LE 100 microblaze_0
+   ADDRESS_SPACE microblaze_0_local_memory_lmb_bram_ADDR_SPACE microblaze_0_local_memory_lmb_bram_MEM_DEVICE  [0x00000000:0x0001FFFF] microblaze_0_local_memory/dlmb_bram_if_cntlr
+     BUS_BLOCK
+      microblaze_0_local_memory_lmb_bram_BUS_BLK [31:0] INPUT = "Kintex_Golden_lmb_bram_0.mem";
+     END_BUS_BLOCK;
+   END_ADDRESS_SPACE;
+   ADDRESS_SPACE blk_mem_gen_0_ADDR_SPACE blk_mem_gen_0_MEM_DEVICE  [0x10010000:0x10010FFF] axi_bram_ctrl_0
+     BUS_BLOCK
+      blk_mem_gen_0_BUS_BLK [31:0] INPUT = "Kintex_Golden_blk_mem_gen_0_0.mem";
+     END_BUS_BLOCK;
+   END_ADDRESS_SPACE;
+   ADDRESS_SPACE blk_mem_gen_1_ADDR_SPACE blk_mem_gen_1_MEM_DEVICE  [0x10011000:0x10011FFF] axi_bram_ctrl_1
+     BUS_BLOCK
+      blk_mem_gen_1_BUS_BLK [31:0] INPUT = "Kintex_Golden_blk_mem_gen_1_0.mem";
+     END_BUS_BLOCK;
+   END_ADDRESS_SPACE;
+   ADDRESS_SPACE blk_mem_gen_2_ADDR_SPACE blk_mem_gen_2_MEM_DEVICE  [0x10012000:0x10012FFF] axi_bram_ctrl_2
+     BUS_BLOCK
+      blk_mem_gen_2_BUS_BLK [31:0] INPUT = "Kintex_Golden_blk_mem_gen_2_0.mem";
+     END_BUS_BLOCK;
+   END_ADDRESS_SPACE;
+END_ADDRESS_MAP;

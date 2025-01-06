@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Bootloader for Zynq---------------------------------------------------------------------------------------------------
+
+# Set current project directory
+current_project_directory="/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script"
+
+# Paths to the TCL scripts
+tcl_file="$current_project_directory/scripts/Create_Project.tcl"
+
+/tools/Xilinx/Vivado/2020.1/bin/vivado -mode batch -source "$tcl_file"

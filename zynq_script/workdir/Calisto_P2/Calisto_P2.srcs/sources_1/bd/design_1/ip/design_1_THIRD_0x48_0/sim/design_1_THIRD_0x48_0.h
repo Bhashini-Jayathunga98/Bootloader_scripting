@@ -57,7 +57,7 @@
 #include "systemc.h"
 class design_1_THIRD_0x48_0 : public sc_module {
   public:
-xlconstant_v1_1_7<32,0x00010200> mod;
+xlconstant_v1_1_7<32,0x000B0000> mod;
   sc_out< sc_bv<32> > dout;
 design_1_THIRD_0x48_0 (sc_core::sc_module_name name);
   };

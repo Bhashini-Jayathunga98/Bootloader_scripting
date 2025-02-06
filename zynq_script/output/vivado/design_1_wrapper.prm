@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SMAPX8
+Size               32M
+Start Address      0x00000000
+End Address        0x01FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0167D0EB    Feb  5 09:36:44 2025    /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/output/vivado/design_1_wrapper.bit

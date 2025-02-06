@@ -1,0 +1,100 @@
+src/xfsbl_misc_drivers.o src/xfsbl_misc_drivers.o: \
+ ../src/xfsbl_misc_drivers.c ../src/xfsbl_hw.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_io.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_types.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_printf.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xparameters.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xparameters_ps.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/bspconfig.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xstatus.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_assert.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xpseudo_asm.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xreg_cortexa53.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xpseudo_asm_gcc.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xparameters.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_types.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/sleep.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_io.h \
+ ../src/xfsbl_config.h ../src/xfsbl_debug.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_printf.h \
+ ../src/xfsbl_error.h ../src/xfsbl_hooks.h ../src/xfsbl_misc.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_exception.h \
+ ../src/xfsbl_misc_drivers.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xipipsu.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xipipsu_hw.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/pm_defs.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/pm_cfg_obj.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/pm_api_sys.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xstatus.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/pm_defs.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/pm_common.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_exception.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xipipsu.h
+
+../src/xfsbl_hw.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_io.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_types.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_printf.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xparameters.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xparameters_ps.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/bspconfig.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xstatus.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_assert.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xpseudo_asm.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xreg_cortexa53.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xpseudo_asm_gcc.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xparameters.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_types.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/sleep.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_io.h:
+
+../src/xfsbl_config.h:
+
+../src/xfsbl_debug.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_printf.h:
+
+../src/xfsbl_error.h:
+
+../src/xfsbl_hooks.h:
+
+../src/xfsbl_misc.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_exception.h:
+
+../src/xfsbl_misc_drivers.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xipipsu.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xipipsu_hw.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/pm_defs.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/pm_cfg_obj.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/pm_api_sys.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xstatus.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/pm_defs.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/pm_common.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xil_exception.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xipipsu.h:

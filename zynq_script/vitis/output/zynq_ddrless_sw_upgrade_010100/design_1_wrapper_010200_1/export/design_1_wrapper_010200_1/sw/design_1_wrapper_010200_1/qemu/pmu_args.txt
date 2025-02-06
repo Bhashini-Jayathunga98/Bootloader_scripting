@@ -1,0 +1,8 @@
+-M
+microblaze-fdt
+-device
+loader,file=<design_1_wrapper_010200_1/qemu/pmufw.elf>
+-machine-path
+.
+-display
+none

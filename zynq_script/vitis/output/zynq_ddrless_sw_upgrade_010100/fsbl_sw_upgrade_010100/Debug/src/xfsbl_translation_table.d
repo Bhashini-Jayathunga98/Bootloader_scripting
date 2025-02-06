@@ -1,0 +1,8 @@
+src/xfsbl_translation_table.o src/xfsbl_translation_table.o: \
+ ../src/xfsbl_translation_table.S \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xparameters.h \
+ /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xparameters_ps.h
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xparameters.h:
+
+/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/sw/design_1_wrapper_010200_1/domain_psu_cortexa53_0/bspinclude/include/xparameters_ps.h:

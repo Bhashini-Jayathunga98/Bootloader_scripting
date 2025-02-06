@@ -1,0 +1,9 @@
+timestamp=[2025-02-05 09:38:30], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.728, duration_ms=1728, data={}
+timestamp=[2025-02-05 09:39:06], mode=PLATFORM_GENERATION, duration=0:00:11.803, duration_ms=11803, data={name=design_1_wrapper_010200_1}
+timestamp=[2025-02-05 09:39:12], mode=BUILD, duration=0:00:02.784, duration_ms=2784, data={name=fsbl_for_vivado_flash, configuration=Debug, clean_build=false}
+timestamp=[2025-02-05 09:39:17], mode=PLATFORM_GENERATION, duration=0:00:04.207, duration_ms=4207, data={name=design_1_wrapper_010200_1}
+timestamp=[2025-02-05 09:39:24], mode=BUILD, duration=0:00:02.732, duration_ms=2732, data={name=fsbl_for_vivado_flash, configuration=Debug, clean_build=false}
+timestamp=[2025-02-05 09:39:33], mode=BUILD, duration=0:00:08.862, duration_ms=8862, data={name=fsbl_for_vivado_flash_system, configuration=Debug, clean_build=false}
+timestamp=[2025-02-05 09:39:37], mode=BUILD, duration=0:00:02.986, duration_ms=2986, data={name=fsbl_sw_upgrade_010100, configuration=Debug, clean_build=false}
+timestamp=[2025-02-05 09:39:37], mode=BUILD, duration=0:00:00.173, duration_ms=173, data={name=fsbl_sw_upgrade_010100, configuration=Debug, clean_build=false}
+timestamp=[2025-02-05 09:39:44], mode=BUILD, duration=0:00:05.541, duration_ms=5541, data={name=fsbl_sw_upgrade_010100_system, configuration=Debug, clean_build=false}

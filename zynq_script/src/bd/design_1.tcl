@@ -99,7 +99,7 @@ proc cr_bd_design_1 { parentCell } {
   # Create instance: THIRD_0x48, and set properties
   set THIRD_0x48 [ create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 THIRD_0x48 ]
   set_property -dict [ list \
-   CONFIG.CONST_VAL {0x00010200} \
+   CONFIG.CONST_VAL {0x000B0000} \
    CONFIG.CONST_WIDTH {32} \
  ] $THIRD_0x48
 
@@ -731,67 +731,6 @@ proc cr_bd_design_1 { parentCell } {
   exclude_bd_addr_seg -target_address_space [get_bd_addr_spaces zynq_ultra_ps_e_0/Data] [get_bd_addr_segs zynq_ultra_ps_e_0/SAXIGP2/HP0_PCIE_LOW]
   exclude_bd_addr_seg -target_address_space [get_bd_addr_spaces zynq_ultra_ps_e_0/Data] [get_bd_addr_segs zynq_ultra_ps_e_0/SAXIGP2/HP0_QSPI]
 
-  # Perform GUI Layout
-  regenerate_bd_layout -layout_string {
-   "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"0.457143",
-   "Default View_TopLeft":"-116,0",
-   "ExpandedHierarchyInLayout":"",
-   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:9.0 TLS
-#  -string -flagsOSRD
-preplace port PCI_CLK -pg 1 -lvl 0 -x -10 -y 980 -defaultsOSRD
-preplace port pcie_mgt_0 -pg 1 -lvl 7 -x 2350 -y 640 -defaultsOSRD
-preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 330 -y 140 -defaultsOSRD
-preplace inst xdma_0 -pg 1 -lvl 5 -x 1880 -y 720 -defaultsOSRD
-preplace inst axi_cdma_0 -pg 1 -lvl 3 -x 1160 -y 360 -defaultsOSRD
-preplace inst xlconstant_0 -pg 1 -lvl 4 -x 1500 -y 750 -defaultsOSRD
-preplace inst axi_interconnect_0 -pg 1 -lvl 4 -x 1500 -y 240 -defaultsOSRD
-preplace inst axi_interconnect_1 -pg 1 -lvl 2 -x 810 -y 270 -defaultsOSRD
-preplace inst bram_ctrl_status -pg 1 -lvl 5 -x 1880 -y 310 -defaultsOSRD
-preplace inst bram_buf_2 -pg 1 -lvl 5 -x 1880 -y 170 -defaultsOSRD
-preplace inst blk_mem_gen_0 -pg 1 -lvl 6 -x 2200 -y 310 -defaultsOSRD
-preplace inst blk_mem_gen_1 -pg 1 -lvl 6 -x 2200 -y 170 -defaultsOSRD
-preplace inst util_ds_buf_0 -pg 1 -lvl 4 -x 1500 -y 980 -defaultsOSRD
-preplace inst generic_regs32_0 -pg 1 -lvl 3 -x 1160 -y 740 -defaultsOSRD
-preplace inst FIRST_0x40 -pg 1 -lvl 2 -x 810 -y 560 -defaultsOSRD
-preplace inst read_0xa10040 -pg 1 -lvl 2 -x 810 -y 860 -defaultsOSRD
-preplace inst axi_bram_ctrl_0_bram2 -pg 1 -lvl 6 -x 2200 -y 480 -defaultsOSRD
-preplace inst bram_buf_1 -pg 1 -lvl 5 -x 1880 -y 480 -defaultsOSRD
-preplace inst SECOND_0x44 -pg 1 -lvl 2 -x 810 -y 660 -defaultsOSRD
-preplace inst THIRD_0x48 -pg 1 -lvl 2 -x 810 -y 760 -defaultsOSRD
-preplace netloc util_ds_buf_0_IBUF_OUT 1 4 1 1680 730n
-preplace netloc util_ds_buf_0_IBUF_DS_ODIV2 1 4 1 1650 710n
-preplace netloc xlconstant_0_dout 1 4 1 NJ 750
-preplace netloc xdma_0_axi_aresetn 1 1 5 630 500 980 450 1340 490 1690 390 2060
-preplace netloc xdma_0_axi_aclk 1 0 6 20 230 620 490 970 270 1330 470 1680 400 2040
-preplace netloc read_0xa0010040_dout 1 2 1 950J 560n
-preplace netloc read_0xa10040_dout 1 2 1 1000 640n
-preplace netloc SECOND_0x44_dout 1 2 1 950J 600n
-preplace netloc THIRD_0x48_dout 1 2 1 990J 620n
-preplace netloc axi_interconnect_1_M02_AXI 1 2 2 960J 250 1320
-preplace netloc axi_interconnect_0_M02_AXI 1 4 1 1650 240n
-preplace netloc axi_interconnect_0_M00_AXI 1 0 5 10 480 NJ 480 NJ 480 NJ 480 1640
-preplace netloc axi_interconnect_1_M03_AXI 1 2 1 960 300n
-preplace netloc PCI_CLK_1 1 0 4 NJ 980 NJ 980 NJ 980 NJ
-preplace netloc xdma_0_pcie_mgt 1 5 2 NJ 640 NJ
-preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 5 1 N 160
-preplace netloc axi_interconnect_0_M03_AXI 1 4 1 1670 260n
-preplace netloc xdma_0_M_AXI_B 1 1 5 620 10 NJ 10 NJ 10 NJ 10 2050
-preplace netloc axi_interconnect_1_M01_AXI 1 2 3 NJ 260 1300J 500 1640
-preplace netloc axi_interconnect_0_M01_AXI 1 4 1 1650 150n
-preplace netloc axi_interconnect_1_M00_AXI 1 2 1 980 240n
-preplace netloc axi_cdma_0_M_AXI 1 3 1 1310 70n
-preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 1 1 N 120
-preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 5 1 N 300
-preplace netloc axi_bram_ctrl_1_BRAM_PORTB 1 5 1 N 180
-preplace netloc axi_bram_ctrl_0_BRAM_PORTB 1 5 1 N 320
-preplace netloc axi_bram_ctrl_0_BRAM_PORTA2 1 5 1 N 470
-preplace netloc axi_bram_ctrl_0_BRAM_PORTB2 1 5 1 N 490
-preplace netloc axi_interconnect_0_M04_AXI 1 4 1 1660 280n
-levelinfo -pg 1 -10 330 810 1160 1500 1880 2200 2350
-pagesize -pg 1 -db -bbox -sgen -110 0 2470 1050
-"
-}
 
   # Restore current instance
   current_bd_instance $oldCurInst

@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/synth_1/design_1_wrapper.tcl"
+  variable script "/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/synth_1/design_1_wrapper.tcl"
   variable category "vivado_synth"
 }
 
@@ -77,72 +77,72 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.cache/wt [current_project]
-set_property parent.project_path /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.xpr [current_project]
+set_property webtalk.parent_dir /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.cache/wt [current_project]
+set_property parent.project_path /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_repo_paths /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/src/ip/generic_regs_repo [current_project]
+set_property ip_repo_paths /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/src/ip/generic_regs_repo [current_project]
 update_ip_catalog
-set_property ip_output_repo /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.cache/ip [current_project]
+set_property ip_output_repo /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/imports/verilog/design_1_wrapper.v
-add_files /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/design_1.bd
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_axi_bram_ctrl_0_bram2_0/design_1_axi_bram_ctrl_0_bram2_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_axi_cdma_0_0/design_1_axi_cdma_0_0.xdc]
-set_property used_in_synthesis false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_ooc.xdc]
-set_property used_in_synthesis false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_ooc.xdc]
-set_property used_in_synthesis false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_ooc.xdc]
-set_property used_in_synthesis false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_2/design_1_auto_ds_2_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_2/design_1_auto_ds_2_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_2/design_1_auto_ds_2_ooc.xdc]
-set_property used_in_synthesis false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_3/design_1_auto_ds_3_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_3/design_1_auto_ds_3_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_3/design_1_auto_ds_3_ooc.xdc]
-set_property used_in_synthesis false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_4/design_1_auto_ds_4_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_4/design_1_auto_ds_4_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_4/design_1_auto_ds_4_ooc.xdc]
-set_property used_in_synthesis false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_ooc.xdc]
-set_property used_in_synthesis false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_5/design_1_auto_ds_5_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_5/design_1_auto_ds_5_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_5/design_1_auto_ds_5_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc]
-set_property used_in_synthesis false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_6/design_1_auto_ds_6_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_6/design_1_auto_ds_6_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_6/design_1_auto_ds_6_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc]
-set_property used_in_synthesis false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_7/design_1_auto_ds_7_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_7/design_1_auto_ds_7_clocks.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_7/design_1_auto_ds_7_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_2/design_1_auto_pc_2_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_blk_mem_gen_0_0/design_1_blk_mem_gen_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_blk_mem_gen_1_0/design_1_blk_mem_gen_1_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_util_ds_buf_0_0/design_1_util_ds_buf_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_util_ds_buf_0_0/design_1_util_ds_buf_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_gt_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_gt.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/design_1_xdma_0_0_pcie4_ip_board.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/source/ip_pcie4_uscale_plus_x1y0.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_1/xdma_v4_1_6_blk_mem_64_reg_be_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_2/xdma_v4_1_6_blk_mem_64_noreg_be_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/design_1_xdma_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/source/design_1_xdma_0_0_pcie4_uscaleplus_ip.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/synth/design_1_xdma_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc]
-set_property used_in_implementation false [get_files -all /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/design_1_ooc.xdc]
+read_verilog -library xil_defaultlib /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/imports/verilog/design_1_wrapper.v
+add_files /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/design_1.bd
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_axi_bram_ctrl_0_bram2_0/design_1_axi_bram_ctrl_0_bram2_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_axi_cdma_0_0/design_1_axi_cdma_0_0.xdc]
+set_property used_in_synthesis false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_ooc.xdc]
+set_property used_in_synthesis false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_ooc.xdc]
+set_property used_in_synthesis false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_ooc.xdc]
+set_property used_in_synthesis false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_2/design_1_auto_ds_2_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_2/design_1_auto_ds_2_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_2/design_1_auto_ds_2_ooc.xdc]
+set_property used_in_synthesis false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_3/design_1_auto_ds_3_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_3/design_1_auto_ds_3_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_3/design_1_auto_ds_3_ooc.xdc]
+set_property used_in_synthesis false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_4/design_1_auto_ds_4_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_4/design_1_auto_ds_4_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_4/design_1_auto_ds_4_ooc.xdc]
+set_property used_in_synthesis false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_ooc.xdc]
+set_property used_in_synthesis false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_5/design_1_auto_ds_5_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_5/design_1_auto_ds_5_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_5/design_1_auto_ds_5_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc]
+set_property used_in_synthesis false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_6/design_1_auto_ds_6_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_6/design_1_auto_ds_6_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_6/design_1_auto_ds_6_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc]
+set_property used_in_synthesis false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_7/design_1_auto_ds_7_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_7/design_1_auto_ds_7_clocks.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_7/design_1_auto_ds_7_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_2/design_1_auto_pc_2_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_blk_mem_gen_0_0/design_1_blk_mem_gen_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_blk_mem_gen_1_0/design_1_blk_mem_gen_1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_util_ds_buf_0_0/design_1_util_ds_buf_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_util_ds_buf_0_0/design_1_util_ds_buf_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_gt_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_gt.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/design_1_xdma_0_0_pcie4_ip_board.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/source/ip_pcie4_uscale_plus_x1y0.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_1/xdma_v4_1_6_blk_mem_64_reg_be_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_2/xdma_v4_1_6_blk_mem_64_noreg_be_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/design_1_xdma_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/source/design_1_xdma_0_0_pcie4_uscaleplus_ip.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/synth/design_1_xdma_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc]
+set_property used_in_implementation false [get_files -all /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/design_1_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -153,8 +153,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/constrs_1/imports/constraints/pcie.xdc
-set_property used_in_implementation false [get_files /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/constrs_1/imports/constraints/pcie.xdc]
+read_xdc /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/constrs_1/imports/constraints/pcie.xdc
+set_property used_in_implementation false [get_files /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/constrs_1/imports/constraints/pcie.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]

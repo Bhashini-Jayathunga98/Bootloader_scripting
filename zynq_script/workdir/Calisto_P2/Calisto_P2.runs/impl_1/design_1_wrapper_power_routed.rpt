@@ -1,8 +1,8 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
-| Date             : Mon Jan  6 16:44:22 2025
-| Host             : bhashni-Vivobook-ASUSLaptop-X1502ZA-X1502ZA running 64-bit Ubuntu 20.04.6 LTS
+| Date             : Wed Feb  5 09:36:19 2025
+| Host             : bhashini-laptop running 64-bit Ubuntu 18.04.1 LTS
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
 | Device           : xczu11eg-ffvc1760-2-i
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 4.535        |
+| Total On-Chip Power (W)  | 4.538        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 3.655        |
+| Dynamic (W)              | 3.657        |
 | Device Static (W)        | 0.880        |
 | Effective TJA (C/W)      | 0.8          |
 | Max Ambient (C)          | 96.6         |
@@ -54,7 +54,7 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.102 |        7 |       --- |             --- |
 | CLB Logic                |     0.031 |    56975 |       --- |             --- |
-|   LUT as Logic           |     0.023 |    20416 |    298560 |            6.84 |
+|   LUT as Logic           |     0.023 |    20411 |    298560 |            6.84 |
 |   Register               |     0.003 |    26106 |    597120 |            4.37 |
 |   LUT as Distributed RAM |     0.003 |     1181 |    148320 |            0.80 |
 |   LUT as Shift Register  |    <0.001 |      396 |    148320 |            0.27 |
@@ -62,7 +62,7 @@ Table of Contents
 |   BUFG                   |    <0.001 |        2 |        64 |            3.13 |
 |   Others                 |     0.000 |      982 |       --- |             --- |
 |   F7/F8 Muxes            |     0.000 |      252 |    298560 |            0.08 |
-| Signals                  |     0.070 |    46070 |       --- |             --- |
+| Signals                  |     0.071 |    46086 |       --- |             --- |
 | Block RAM                |     0.160 |       32 |       600 |            5.33 |
 | I/O                      |     0.006 |        0 |       512 |            0.00 |
 | GTH                      |     0.284 |        1 |        32 |            3.13 |
@@ -72,7 +72,7 @@ Table of Contents
 | Static Power             |     0.880 |          |           |                 |
 |   PS Static              |     0.098 |          |           |                 |
 |   PL Static              |     0.783 |          |           |                 |
-| Total                    |     4.535 |          |           |                 |
+| Total                    |     4.538 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -82,7 +82,7 @@ Table of Contents
 +-----------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source          | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint          |       0.850 |     0.773 |       0.556 |      0.217 |       NA    | Unspecified | NA         |
+| Vccint          |       0.850 |     0.776 |       0.559 |      0.217 |       NA    | Unspecified | NA         |
 | Vccint_io       |       0.850 |     0.072 |       0.001 |      0.071 |       NA    | Unspecified | NA         |
 | Vccbram         |       0.850 |     0.029 |       0.026 |      0.003 |       NA    | Unspecified | NA         |
 | Vccaux          |       1.800 |     0.218 |       0.000 |      0.218 |       NA    | Unspecified | NA         |
@@ -175,13 +175,13 @@ Table of Contents
 +---------------------------+-----------+
 | Name                      | Power (W) |
 +---------------------------+-----------+
-| design_1_wrapper          |     3.655 |
-|   design_1_i              |     3.655 |
+| design_1_wrapper          |     3.657 |
+|   design_1_i              |     3.657 |
 |     axi_bram_ctrl_0_bram2 |     0.002 |
 |       U0                  |     0.002 |
 |     axi_cdma_0            |     0.004 |
 |       U0                  |     0.004 |
-|     axi_interconnect_0    |     0.033 |
+|     axi_interconnect_0    |     0.034 |
 |       m00_couplers        |     0.005 |
 |       m01_couplers        |     0.003 |
 |       m02_couplers        |     0.004 |
@@ -189,11 +189,11 @@ Table of Contents
 |       m04_couplers        |     0.003 |
 |       s00_couplers        |     0.003 |
 |       xbar                |     0.012 |
-|     axi_interconnect_1    |     0.040 |
+|     axi_interconnect_1    |     0.042 |
 |       m00_couplers        |     0.006 |
 |       m01_couplers        |     0.009 |
 |       m03_couplers        |     0.006 |
-|       s00_mmu             |     0.002 |
+|       s00_mmu             |     0.003 |
 |       s01_couplers        |     0.004 |
 |       xbar                |     0.013 |
 |     blk_mem_gen_0         |     0.002 |

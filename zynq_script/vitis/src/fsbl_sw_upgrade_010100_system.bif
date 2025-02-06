@@ -1,0 +1,7 @@
+//arch = zynqmp; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader, destination_cpu = a53-0]/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/fsbl_sw_upgrade_010100/Debug/fsbl_sw_upgrade_010100.elf
+	[destination_device = pl]/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/bitstream/design_1_wrapper.bit
+}
+

@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/impl_1'
+HD_PWD='/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

@@ -1,8 +1,8 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
-| Date                      : Mon Jan  6 16:42:30 2025
-| Host                      : bhashni-Vivobook-ASUSLaptop-X1502ZA-X1502ZA running 64-bit Ubuntu 20.04.6 LTS
+| Date                      : Wed Feb  5 09:34:51 2025
+| Host                      : bhashini-laptop running 64-bit Ubuntu 18.04.1 LTS
 | Command                   : report_io -file design_1_wrapper_io_placed.rpt
 | Design                    : design_1_wrapper
 | Device                    : xczu11eg
@@ -10,7 +10,7 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 | Package                   : ffvc1760
 | Package Version           : PRODUCTION 1.1 9/25/2017
 | Package Pin Delay Version : PRODUCTION 1.0 12/16/2016
-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 IO Information
 

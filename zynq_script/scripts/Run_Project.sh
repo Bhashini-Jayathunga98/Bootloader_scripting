@@ -3,7 +3,7 @@
 # Bootloader for Zynq---------------------------------------------------------------------------------------------------
 
 # Set current project directory
-current_project_directory="/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script"
+current_project_directory="/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script"
 
 # Paths to the TCL scripts
 tcl_file="$current_project_directory/scripts/Create_Project.tcl"

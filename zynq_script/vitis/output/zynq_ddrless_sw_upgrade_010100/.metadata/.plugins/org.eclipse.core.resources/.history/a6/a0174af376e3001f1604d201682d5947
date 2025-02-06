@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="fsbl_for_vivado_flash" location="C:/Project/Calisto2/Zynq_without_ddr/vitis_ddrless_sw_upgrade_fsbl/fsbl_for_vivado_flash" platform="/home/bhashini/Desktop/Zynq_Selftest_new/2025_01_30/vitis_test_with_original_xsa/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/design_1_wrapper_010200_1.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="fsbl_for_vivado_flash_system" sysConfig="design_1_wrapper_010200_1" runtime="C/C++" cpu="domain_psu_cortexa53_0" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="36c534f2baa73cb8a7265a3d23073709">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.357204553">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.1765633785" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="zynqmp_fsbl" hasBspSettings="true"/>
+</sdkproject:SdkProject>

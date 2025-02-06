@@ -179,7 +179,7 @@ proc create_root_design { parentCell } {
   # Create instance: THIRD_0x48, and set properties
   set THIRD_0x48 [ create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 THIRD_0x48 ]
   set_property -dict [ list \
-   CONFIG.CONST_VAL {0x00010200} \
+   CONFIG.CONST_VAL {0x000B0000} \
    CONFIG.CONST_WIDTH {32} \
  ] $THIRD_0x48
 

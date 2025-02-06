@@ -1,0 +1,30 @@
+09:38:28 INFO  : Registering command handlers for Vitis TCF services
+09:38:29 INFO  : plnx-install-location is set to ''
+09:38:30 WARN  : Failed to identify the type of project 'RemoteSystemsTempFiles'. Skipping...
+09:38:30 WARN  : The following projects could not be identified as Vitis projects and will not be managed by the tool:
+	RemoteSystemsTempFiles
+09:38:30 INFO  : Platform repository initialization has completed.
+09:38:54 INFO  : Result from executing command 'getProjects': design_1_wrapper_010200_1
+09:38:54 INFO  : Result from executing command 'getPlatforms': 
+09:38:54 INFO  : Result from executing command 'getProjects': design_1_wrapper_010200_1
+09:38:54 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_010200_1|/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/design_1_wrapper_010200_1/export/design_1_wrapper_010200_1/design_1_wrapper_010200_1.xpfm
+09:38:54 INFO  : Result from executing command 'getProjects': fsbl_for_vivado_flash;fsbl_sw_upgrade_010100
+09:39:06 INFO  : Checking for BSP changes to sync application flags for project 'fsbl_for_vivado_flash'...
+09:39:09 INFO  : Updating application flags with new BSP settings...
+09:39:09 INFO  : Successfully done query RDI_DATADIR 
+09:39:09 INFO  : Successfully updated application flags for project fsbl_for_vivado_flash.
+09:39:17 INFO  : Checking for BSP changes to sync application flags for project 'fsbl_for_vivado_flash'...
+09:39:24 INFO  : The hardware specfication used by project 'fsbl_for_vivado_flash' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+09:39:24 INFO  : The file '/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/fsbl_for_vivado_flash/_ide/bitstream/design_1_wrapper.bit' stored in project is removed.
+09:39:24 INFO  : The updated bitstream files are copied from platform to folder '/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/fsbl_for_vivado_flash/_ide/bitstream' in project 'fsbl_for_vivado_flash'.
+09:39:24 INFO  : The file '/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/fsbl_for_vivado_flash/_ide/psinit/psu_init.tcl' stored in project is removed.
+09:39:24 INFO  : The updated ps init files are copied from platform to folder '/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/fsbl_for_vivado_flash/_ide/psinit' in project 'fsbl_for_vivado_flash'.
+09:39:34 INFO  : Checking for BSP changes to sync application flags for project 'fsbl_sw_upgrade_010100'...
+09:39:34 INFO  : Updating application flags with new BSP settings...
+09:39:34 INFO  : Successfully updated application flags for project fsbl_sw_upgrade_010100.
+09:39:37 INFO  : Checking for BSP changes to sync application flags for project 'fsbl_sw_upgrade_010100'...
+09:39:38 INFO  : The hardware specfication used by project 'fsbl_sw_upgrade_010100' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+09:39:38 INFO  : The file '/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/fsbl_sw_upgrade_010100/_ide/bitstream/design_1_wrapper.bit' stored in project is removed.
+09:39:38 INFO  : The updated bitstream files are copied from platform to folder '/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/fsbl_sw_upgrade_010100/_ide/bitstream' in project 'fsbl_sw_upgrade_010100'.
+09:39:38 INFO  : The file '/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/fsbl_sw_upgrade_010100/_ide/psinit/psu_init.tcl' stored in project is removed.
+09:39:38 INFO  : The updated ps init files are copied from platform to folder '/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/vitis/output/zynq_ddrless_sw_upgrade_010100/fsbl_sw_upgrade_010100/_ide/psinit' in project 'fsbl_sw_upgrade_010100'.

@@ -10,108 +10,108 @@
 
 source design_1_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/src/ip/generic_regs_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/src/ip/generic_regs_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.1/data/ip'.
 Command: link_design -top design_1_wrapper -part xczu11eg-ffvc1760-2-i
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
 INFO: [Device 21-403] Loading part xczu11eg-ffvc1760-2-i
-Netlist sorting complete. Time (s): cpu = 00:00:00.59 ; elapsed = 00:00:00.60 . Memory (MB): peak = 2740.234 ; gain = 0.000 ; free physical = 9313 ; free virtual = 25812
+Netlist sorting complete. Time (s): cpu = 00:00:00.57 ; elapsed = 00:00:00.57 . Memory (MB): peak = 2713.750 ; gain = 0.000 ; free physical = 25383 ; free virtual = 35915
 INFO: [Netlist 29-17] Analyzing 690 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2020.1
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_axi_cdma_0_0/design_1_axi_cdma_0_0.xdc] for cell 'design_1_i/axi_cdma_0/U0'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_axi_cdma_0_0/design_1_axi_cdma_0_0.xdc] for cell 'design_1_i/axi_cdma_0/U0'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_util_ds_buf_0_0/design_1_util_ds_buf_0_0_board.xdc] for cell 'design_1_i/util_ds_buf_0/U0'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_util_ds_buf_0_0/design_1_util_ds_buf_0_0_board.xdc] for cell 'design_1_i/util_ds_buf_0/U0'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_gt.xdc] for cell 'design_1_i/xdma_0/inst/pcie4_ip_i/inst/gt_top_i/diablo_gt.diablo_gt_phy_wrapper/gt_wizard.gtwizard_top_i/design_1_xdma_0_0_pcie4_ip_gt_i/inst'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_gt.xdc] for cell 'design_1_i/xdma_0/inst/pcie4_ip_i/inst/gt_top_i/diablo_gt.diablo_gt_phy_wrapper/gt_wizard.gtwizard_top_i/design_1_xdma_0_0_pcie4_ip_gt_i/inst'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/source/ip_pcie4_uscale_plus_x1y0.xdc] for cell 'design_1_i/xdma_0/inst/pcie4_ip_i/inst'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/source/ip_pcie4_uscale_plus_x1y0.xdc] for cell 'design_1_i/xdma_0/inst/pcie4_ip_i/inst'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/design_1_xdma_0_0_board.xdc] for cell 'design_1_i/xdma_0/inst'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/design_1_xdma_0_0_board.xdc] for cell 'design_1_i/xdma_0/inst'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/source/design_1_xdma_0_0_pcie4_uscaleplus_ip.xdc] for cell 'design_1_i/xdma_0/inst'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/source/design_1_xdma_0_0_pcie4_uscaleplus_ip.xdc] for cell 'design_1_i/xdma_0/inst'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0/inst'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0/inst'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/constrs_1/imports/constraints/pcie.xdc]
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/constrs_1/imports/constraints/pcie.xdc]
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/s00_couplers/auto_us/inst'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/s00_couplers/auto_us/inst'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m00_couplers/auto_ds/inst'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m00_couplers/auto_ds/inst'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m01_couplers/auto_ds/inst'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m01_couplers/auto_ds/inst'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_2/design_1_auto_ds_2_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m02_couplers/auto_ds/inst'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_2/design_1_auto_ds_2_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m02_couplers/auto_ds/inst'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_3/design_1_auto_ds_3_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m03_couplers/auto_ds/inst'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_3/design_1_auto_ds_3_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m03_couplers/auto_ds/inst'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_4/design_1_auto_ds_4_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m04_couplers/auto_ds/inst'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_4/design_1_auto_ds_4_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m04_couplers/auto_ds/inst'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc] for cell 'design_1_i/axi_interconnect_1/s01_couplers/auto_us/inst'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc] for cell 'design_1_i/axi_interconnect_1/s01_couplers/auto_us/inst'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_5/design_1_auto_ds_5_clocks.xdc] for cell 'design_1_i/axi_interconnect_1/m00_couplers/auto_ds/inst'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_5/design_1_auto_ds_5_clocks.xdc] for cell 'design_1_i/axi_interconnect_1/m00_couplers/auto_ds/inst'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_6/design_1_auto_ds_6_clocks.xdc] for cell 'design_1_i/axi_interconnect_1/m01_couplers/auto_ds/inst'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_6/design_1_auto_ds_6_clocks.xdc] for cell 'design_1_i/axi_interconnect_1/m01_couplers/auto_ds/inst'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_7/design_1_auto_ds_7_clocks.xdc] for cell 'design_1_i/axi_interconnect_1/m03_couplers/auto_ds/inst'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_7/design_1_auto_ds_7_clocks.xdc] for cell 'design_1_i/axi_interconnect_1/m03_couplers/auto_ds/inst'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/design_1_xdma_0_0_pcie4_ip_board.xdc] for cell 'design_1_i/xdma_0/inst/pcie4_ip_i/inst'
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/design_1_xdma_0_0_pcie4_ip_board.xdc] for cell 'design_1_i/xdma_0/inst/pcie4_ip_i/inst'
-Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc] for cell 'design_1_i/xdma_0/inst/pcie4_ip_i/inst'
-INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:63]
-INFO: [Timing 38-2] Deriving generated clocks [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:63]
-WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]'. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:63]
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_axi_cdma_0_0/design_1_axi_cdma_0_0.xdc] for cell 'design_1_i/axi_cdma_0/U0'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_axi_cdma_0_0/design_1_axi_cdma_0_0.xdc] for cell 'design_1_i/axi_cdma_0/U0'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_util_ds_buf_0_0/design_1_util_ds_buf_0_0_board.xdc] for cell 'design_1_i/util_ds_buf_0/U0'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_util_ds_buf_0_0/design_1_util_ds_buf_0_0_board.xdc] for cell 'design_1_i/util_ds_buf_0/U0'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_gt.xdc] for cell 'design_1_i/xdma_0/inst/pcie4_ip_i/inst/gt_top_i/diablo_gt.diablo_gt_phy_wrapper/gt_wizard.gtwizard_top_i/design_1_xdma_0_0_pcie4_ip_gt_i/inst'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_gt.xdc] for cell 'design_1_i/xdma_0/inst/pcie4_ip_i/inst/gt_top_i/diablo_gt.diablo_gt_phy_wrapper/gt_wizard.gtwizard_top_i/design_1_xdma_0_0_pcie4_ip_gt_i/inst'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/source/ip_pcie4_uscale_plus_x1y0.xdc] for cell 'design_1_i/xdma_0/inst/pcie4_ip_i/inst'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/source/ip_pcie4_uscale_plus_x1y0.xdc] for cell 'design_1_i/xdma_0/inst/pcie4_ip_i/inst'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/design_1_xdma_0_0_board.xdc] for cell 'design_1_i/xdma_0/inst'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/design_1_xdma_0_0_board.xdc] for cell 'design_1_i/xdma_0/inst'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/source/design_1_xdma_0_0_pcie4_uscaleplus_ip.xdc] for cell 'design_1_i/xdma_0/inst'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/source/design_1_xdma_0_0_pcie4_uscaleplus_ip.xdc] for cell 'design_1_i/xdma_0/inst'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0/inst'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0/inst'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/constrs_1/imports/constraints/pcie.xdc]
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/constrs_1/imports/constraints/pcie.xdc]
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/s00_couplers/auto_us/inst'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m00_couplers/auto_ds/inst'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m00_couplers/auto_ds/inst'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m01_couplers/auto_ds/inst'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m01_couplers/auto_ds/inst'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_2/design_1_auto_ds_2_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m02_couplers/auto_ds/inst'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_2/design_1_auto_ds_2_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m02_couplers/auto_ds/inst'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_3/design_1_auto_ds_3_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m03_couplers/auto_ds/inst'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_3/design_1_auto_ds_3_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m03_couplers/auto_ds/inst'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_4/design_1_auto_ds_4_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m04_couplers/auto_ds/inst'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_4/design_1_auto_ds_4_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/m04_couplers/auto_ds/inst'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc] for cell 'design_1_i/axi_interconnect_1/s01_couplers/auto_us/inst'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc] for cell 'design_1_i/axi_interconnect_1/s01_couplers/auto_us/inst'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_5/design_1_auto_ds_5_clocks.xdc] for cell 'design_1_i/axi_interconnect_1/m00_couplers/auto_ds/inst'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_5/design_1_auto_ds_5_clocks.xdc] for cell 'design_1_i/axi_interconnect_1/m00_couplers/auto_ds/inst'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_6/design_1_auto_ds_6_clocks.xdc] for cell 'design_1_i/axi_interconnect_1/m01_couplers/auto_ds/inst'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_6/design_1_auto_ds_6_clocks.xdc] for cell 'design_1_i/axi_interconnect_1/m01_couplers/auto_ds/inst'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_7/design_1_auto_ds_7_clocks.xdc] for cell 'design_1_i/axi_interconnect_1/m03_couplers/auto_ds/inst'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_7/design_1_auto_ds_7_clocks.xdc] for cell 'design_1_i/axi_interconnect_1/m03_couplers/auto_ds/inst'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/design_1_xdma_0_0_pcie4_ip_board.xdc] for cell 'design_1_i/xdma_0/inst/pcie4_ip_i/inst'
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/design_1_xdma_0_0_pcie4_ip_board.xdc] for cell 'design_1_i/xdma_0/inst/pcie4_ip_i/inst'
+Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc] for cell 'design_1_i/xdma_0/inst/pcie4_ip_i/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:63]
+INFO: [Timing 38-2] Deriving generated clocks [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:63]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]'. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:63]
 Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:63]
-get_clocks: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 3333.902 ; gain = 406.125 ; free physical = 8889 ; free virtual = 25386
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]]'. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:63]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:63]
+get_clocks: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 3306.359 ; gain = 405.062 ; free physical = 24937 ; free virtual = 35456
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]]'. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:63]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group '. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:63]
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group '. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:63]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:63]
-WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]'. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:64]
+CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:63]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]'. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:64]
 Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:64]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]]'. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:64]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:64]
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]]'. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:64]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group '. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:64]
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group '. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:64]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:64]
-WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]'. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:67]
+CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:64]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]'. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:67]
 Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:67]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]]'. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:67]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:67]
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]]'. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:67]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group '. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:67]
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group '. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:67]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:67]
-WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]'. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:68]
+CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:67]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]'. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:68]
 Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:68]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]]'. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:68]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:68]
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]]'. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:68]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group '. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:68]
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group '. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:68]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:68]
-WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]'. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:75]
+CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:68]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]'. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:75]
 Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:75]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]]'. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:75]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:75]
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]]'. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:75]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group '. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:75]
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group '. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:75]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:75]
-WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]'. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:76]
+CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:75]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]'. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:76]
 Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:76]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]]'. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:76]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:76]
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -of_objects [get_ports -scoped_to_current_instance sys_clk]]'. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:76]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group '. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:76]
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group '. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:76]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:76]
-Finished Parsing XDC File [/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc] for cell 'design_1_i/xdma_0/inst/pcie4_ip_i/inst'
+CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc:76]
+Finished Parsing XDC File [/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_0/ip_0/synth/design_1_xdma_0_0_pcie4_ip_late.xdc] for cell 'design_1_i/xdma_0/inst/pcie4_ip_i/inst'
 Sourcing Tcl File [/tools/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'design_1_i/axi_interconnect_1/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
 Finished Sourcing Tcl File [/tools/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'design_1_i/axi_interconnect_1/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
 Sourcing Tcl File [/tools/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'design_1_i/axi_interconnect_0/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
@@ -167,7 +167,7 @@ Finished Sourcing Tcl File [/tools/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/
 Sourcing Tcl File [/tools/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'design_1_i/xdma_0/inst/udma_wrapper/dma_top/base/IRQ_INST/usr_irq_xpm_cdc'
 Finished Sourcing Tcl File [/tools/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'design_1_i/xdma_0/inst/udma_wrapper/dma_top/base/IRQ_INST/usr_irq_xpm_cdc'
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3686.074 ; gain = 0.000 ; free physical = 8938 ; free virtual = 25437
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3658.531 ; gain = 0.000 ; free physical = 24971 ; free virtual = 35506
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 170 instances were transformed.
   RAM16X1D => RAM32X1D (RAMD32(x2)): 5 instances
@@ -176,11 +176,11 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 
 18 Infos, 6 Warnings, 18 Critical Warnings and 0 Errors encountered.
 link_design completed successfully
-link_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:40 . Memory (MB): peak = 3686.074 ; gain = 1569.316 ; free physical = 8938 ; free virtual = 25437
+link_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 3658.531 ; gain = 1530.254 ; free physical = 24971 ; free virtual = 35506
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xczu11eg'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu11eg'
-INFO: [Common 17-86] Your Implementation license expires in 6 day(s)
+INFO: [Common 17-86] Your Implementation license expires in 18 day(s)
 Running DRC as a precondition to command opt_design
 
 Starting DRC Task
@@ -188,58 +188,58 @@ INFO: [DRC 23-27] Running DRC with 8 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3686.074 ; gain = 0.000 ; free physical = 8922 ; free virtual = 25423
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3658.531 ; gain = 0.000 ; free physical = 24963 ; free virtual = 35481
 
 Starting Cache Timing Information Task
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Ending Cache Timing Information Task | Checksum: 123a2357f
+Ending Cache Timing Information Task | Checksum: 130d33fcb
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 3686.074 ; gain = 0.000 ; free physical = 8880 ; free virtual = 25382
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.92 . Memory (MB): peak = 3658.531 ; gain = 0.000 ; free physical = 24929 ; free virtual = 35447
 
 Starting Logic Optimization Task
 
 Phase 1 Retarget
 INFO: [Opt 31-138] Pushed 85 inverter(s) to 16619 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 1 Retarget | Checksum: 13b6e8572
+Phase 1 Retarget | Checksum: d0da2e37
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 3686.074 ; gain = 0.000 ; free physical = 8777 ; free virtual = 25273
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 3658.531 ; gain = 0.000 ; free physical = 24808 ; free virtual = 35330
 INFO: [Opt 31-389] Phase Retarget created 1048 cells and removed 2683 cells
 INFO: [Opt 31-1021] In phase Retarget, 194 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 10 inverter(s) to 18 load pin(s).
-Phase 2 Constant propagation | Checksum: 178f8b271
+Phase 2 Constant propagation | Checksum: 148bf32c2
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 3686.074 ; gain = 0.000 ; free physical = 8777 ; free virtual = 25273
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 3658.531 ; gain = 0.000 ; free physical = 24815 ; free virtual = 35330
 INFO: [Opt 31-389] Phase Constant propagation created 1015 cells and removed 2603 cells
 INFO: [Opt 31-1021] In phase Constant propagation, 192 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 3 Sweep
-Phase 3 Sweep | Checksum: 16b72771f
+Phase 3 Sweep | Checksum: cbcd351d
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 3686.074 ; gain = 0.000 ; free physical = 8789 ; free virtual = 25285
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 3658.531 ; gain = 0.000 ; free physical = 24819 ; free virtual = 35337
 INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 5014 cells
 INFO: [Opt 31-1021] In phase Sweep, 769 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 4 BUFG optimization
 INFO: [Opt 31-1077] Phase BUFG optimization inserted 0 global clock buffer(s) for CLOCK_LOW_FANOUT.
-Phase 4 BUFG optimization | Checksum: 16b72771f
+Phase 4 BUFG optimization | Checksum: cbcd351d
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 3686.074 ; gain = 0.000 ; free physical = 8789 ; free virtual = 25285
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 3658.531 ; gain = 0.000 ; free physical = 24820 ; free virtual = 35338
 INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
 
 Phase 5 Shift Register Optimization
 INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
-Phase 5 Shift Register Optimization | Checksum: 16b72771f
+Phase 5 Shift Register Optimization | Checksum: cbcd351d
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 3686.074 ; gain = 0.000 ; free physical = 8786 ; free virtual = 25283
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 3658.531 ; gain = 0.000 ; free physical = 24820 ; free virtual = 35338
 INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
 
 Phase 6 Post Processing Netlist
-Phase 6 Post Processing Netlist | Checksum: 16b72771f
+Phase 6 Post Processing Netlist | Checksum: cbcd351d
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 3686.074 ; gain = 0.000 ; free physical = 8786 ; free virtual = 25283
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3658.531 ; gain = 0.000 ; free physical = 24819 ; free virtual = 35338
 INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
 INFO: [Opt 31-1021] In phase Post Processing Netlist, 264 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 Opt_design Change Summary
@@ -261,10 +261,10 @@ Opt_design Change Summary
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 3686.074 ; gain = 0.000 ; free physical = 8785 ; free virtual = 25282
-Ending Logic Optimization Task | Checksum: 20e559bde
+Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3658.531 ; gain = 0.000 ; free physical = 24827 ; free virtual = 35337
+Ending Logic Optimization Task | Checksum: 1690317ad
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3686.074 ; gain = 0.000 ; free physical = 8785 ; free virtual = 25282
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 3658.531 ; gain = 0.000 ; free physical = 24827 ; free virtual = 35337
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
@@ -280,46 +280,46 @@ Starting PowerOpt Patch Enables Task
 INFO: [Pwropt 34-162] WRITE_MODE attribute of 3 BRAM(s) out of a total of 32 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
 INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
 Number of BRAM Ports augmented: 0 newly gated: 22 Total Ports: 64
-Ending PowerOpt Patch Enables Task | Checksum: 20567bf5b
+Ending PowerOpt Patch Enables Task | Checksum: 19f9a3baa
 
-Time (s): cpu = 00:00:00.26 ; elapsed = 00:00:00.26 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7400 ; free virtual = 24119
-Ending Power Optimization Task | Checksum: 20567bf5b
+Time (s): cpu = 00:00:00.21 ; elapsed = 00:00:00.21 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23805 ; free virtual = 34466
+Ending Power Optimization Task | Checksum: 19f9a3baa
 
-Time (s): cpu = 00:00:55 ; elapsed = 00:00:54 . Memory (MB): peak = 5300.789 ; gain = 1614.715 ; free physical = 7448 ; free virtual = 24167
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:40 . Memory (MB): peak = 5083.848 ; gain = 1425.316 ; free physical = 23856 ; free virtual = 34516
 
 Starting Final Cleanup Task
-Ending Final Cleanup Task | Checksum: 20567bf5b
+Ending Final Cleanup Task | Checksum: 19f9a3baa
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7448 ; free virtual = 24167
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23854 ; free virtual = 34515
 
 Starting Netlist Obfuscation Task
-Netlist sorting complete. Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.09 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7460 ; free virtual = 24171
-Ending Netlist Obfuscation Task | Checksum: 17458005d
+Netlist sorting complete. Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23842 ; free virtual = 34503
+Ending Netlist Obfuscation Task | Checksum: 1cea97cac
 
-Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.09 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7460 ; free virtual = 24171
+Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23842 ; free virtual = 34503
 INFO: [Common 17-83] Releasing license: Implementation
 46 Infos, 6 Warnings, 18 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:01:12 ; elapsed = 00:01:07 . Memory (MB): peak = 5300.789 ; gain = 1614.715 ; free physical = 7460 ; free virtual = 24171
+opt_design: Time (s): cpu = 00:00:58 ; elapsed = 00:00:51 . Memory (MB): peak = 5083.848 ; gain = 1425.316 ; free physical = 23842 ; free virtual = 34503
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00.33 ; elapsed = 00:00:00.08 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7414 ; free virtual = 24122
-INFO: [Common 17-1381] The checkpoint '/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/impl_1/design_1_wrapper_opt.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7379 ; free virtual = 24115
+Write XDEF Complete: Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.04 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23787 ; free virtual = 34443
+INFO: [Common 17-1381] The checkpoint '/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/impl_1/design_1_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23779 ; free virtual = 34435
 INFO: [runtcl-4] Executing : report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
 Command: report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 8 threads
-INFO: [Coretcl 2-168] The results of DRC are in file /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/impl_1/design_1_wrapper_drc_opted.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/impl_1/design_1_wrapper_drc_opted.rpt.
 report_drc completed successfully
 Command: place_design
 Attempting to get a license for feature 'Implementation' and/or device 'xczu11eg'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu11eg'
-INFO: [Common 17-86] Your Implementation license expires in 6 day(s)
+INFO: [Common 17-86] Your Implementation license expires in 18 day(s)
 INFO: [DRC 23-27] Running DRC with 8 threads
 INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
 INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
@@ -334,29 +334,29 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7370 ; free virtual = 24103
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23771 ; free virtual = 34423
 Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 13dea4a56
 
-Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.07 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7370 ; free virtual = 24103
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7369 ; free virtual = 24103
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.05 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23771 ; free virtual = 34423
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23771 ; free virtual = 34423
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: c66d8faf
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7358 ; free virtual = 24103
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23741 ; free virtual = 34414
 
 Phase 1.3 Build Placer Netlist Model
-Phase 1.3 Build Placer Netlist Model | Checksum: ccfe7091
+Phase 1.3 Build Placer Netlist Model | Checksum: 1655eb4ef
 
-Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7222 ; free virtual = 23975
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23617 ; free virtual = 34283
 
 Phase 1.4 Constrain Clocks/Macros
-Phase 1.4 Constrain Clocks/Macros | Checksum: ccfe7091
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1655eb4ef
 
-Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7221 ; free virtual = 23974
-Phase 1 Placer Initialization | Checksum: ccfe7091
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23625 ; free virtual = 34291
+Phase 1 Placer Initialization | Checksum: 1655eb4ef
 
-Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7214 ; free virtual = 23967
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23617 ; free virtual = 34283
 
 Phase 2 Global Placement
 
@@ -365,43 +365,43 @@ Phase 2.1 Floorplanning
 Phase 2.1.1 Partition Driven Placement
 
 Phase 2.1.1.1 PBP: Partition Driven Placement
-Phase 2.1.1.1 PBP: Partition Driven Placement | Checksum: 191d95ea4
+Phase 2.1.1.1 PBP: Partition Driven Placement | Checksum: 11f233ab4
 
-Time (s): cpu = 00:00:41 ; elapsed = 00:00:18 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7378 ; free virtual = 24092
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:13 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23450 ; free virtual = 34209
 
 Phase 2.1.1.2 PBP: Clock Region Placement
-Phase 2.1.1.2 PBP: Clock Region Placement | Checksum: 21619fd10
+Phase 2.1.1.2 PBP: Clock Region Placement | Checksum: 1a363d920
 
-Time (s): cpu = 00:00:41 ; elapsed = 00:00:19 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7359 ; free virtual = 24089
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:13 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23468 ; free virtual = 34208
 
 Phase 2.1.1.3 PBP: Compute Congestion
-Phase 2.1.1.3 PBP: Compute Congestion | Checksum: 21619fd10
+Phase 2.1.1.3 PBP: Compute Congestion | Checksum: 1a363d920
 
-Time (s): cpu = 00:00:42 ; elapsed = 00:00:20 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7337 ; free virtual = 24070
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:14 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23444 ; free virtual = 34183
 
 Phase 2.1.1.4 PBP: UpdateTiming
-Phase 2.1.1.4 PBP: UpdateTiming | Checksum: 2197ba26e
+Phase 2.1.1.4 PBP: UpdateTiming | Checksum: 14d26924d
 
-Time (s): cpu = 00:00:45 ; elapsed = 00:00:21 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7337 ; free virtual = 24059
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:14 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23458 ; free virtual = 34176
 
 Phase 2.1.1.5 PBP: Add part constraints
-Phase 2.1.1.5 PBP: Add part constraints | Checksum: 2197ba26e
+Phase 2.1.1.5 PBP: Add part constraints | Checksum: 14d26924d
 
-Time (s): cpu = 00:00:45 ; elapsed = 00:00:21 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7337 ; free virtual = 24059
-Phase 2.1.1 Partition Driven Placement | Checksum: 2197ba26e
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:14 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23458 ; free virtual = 34176
+Phase 2.1.1 Partition Driven Placement | Checksum: 14d26924d
 
-Time (s): cpu = 00:00:45 ; elapsed = 00:00:21 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7350 ; free virtual = 24071
-Phase 2.1 Floorplanning | Checksum: 2197ba26e
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:14 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23474 ; free virtual = 34192
+Phase 2.1 Floorplanning | Checksum: 14d26924d
 
-Time (s): cpu = 00:00:45 ; elapsed = 00:00:21 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7349 ; free virtual = 24071
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:14 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23474 ; free virtual = 34192
 
 Phase 2.2 Global Placement Core
 
 Phase 2.2.1 Physical Synthesis In Placer
-INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 1205 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 1235 LUT instances to create LUTNM shape
 INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
-INFO: [Physopt 32-775] End 1 Pass. Optimized 484 nets or cells. Created 0 new cell, deleted 484 existing cells and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7306 ; free virtual = 24024
+INFO: [Physopt 32-775] End 1 Pass. Optimized 502 nets or cells. Created 0 new cell, deleted 502 existing cells and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23522 ; free virtual = 34196
 INFO: [Physopt 32-65] No nets found for high-fanout optimization.
 INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
@@ -412,7 +412,7 @@ INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was
 INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
 INFO: [Physopt 32-949] No candidate nets found for HD net replication
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7300 ; free virtual = 24019
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23518 ; free virtual = 34195
 
 Summary of Physical Synthesis Optimizations
 ============================================
@@ -421,7 +421,7 @@ Summary of Physical Synthesis Optimizations
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-|  LUT Combining                                    |            0  |            484  |                   484  |           0  |           1  |  00:00:01  |
+|  LUT Combining                                    |            0  |            502  |                   502  |           0  |           1  |  00:00:00  |
 |  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  DSP Register                                     |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
 |  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
@@ -429,69 +429,69 @@ Summary of Physical Synthesis Optimizations
 |  BRAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
 |  URAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
 |  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
-|  Total                                            |            0  |            484  |                   484  |           0  |           3  |  00:00:01  |
+|  Total                                            |            0  |            502  |                   502  |           0  |           3  |  00:00:01  |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Phase 2.2.1 Physical Synthesis In Placer | Checksum: 1b1005fd1
+Phase 2.2.1 Physical Synthesis In Placer | Checksum: 16252fca8
 
-Time (s): cpu = 00:01:55 ; elapsed = 00:00:49 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7291 ; free virtual = 24019
-Phase 2.2 Global Placement Core | Checksum: 1f58ec5ee
+Time (s): cpu = 00:01:32 ; elapsed = 00:00:34 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23514 ; free virtual = 34191
+Phase 2.2 Global Placement Core | Checksum: 1ddb9a1bf
 
-Time (s): cpu = 00:02:04 ; elapsed = 00:00:53 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7279 ; free virtual = 23998
-Phase 2 Global Placement | Checksum: 1f58ec5ee
+Time (s): cpu = 00:01:39 ; elapsed = 00:00:36 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23501 ; free virtual = 34174
+Phase 2 Global Placement | Checksum: 1ddb9a1bf
 
-Time (s): cpu = 00:02:04 ; elapsed = 00:00:53 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7302 ; free virtual = 24021
+Time (s): cpu = 00:01:39 ; elapsed = 00:00:36 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23526 ; free virtual = 34199
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: 1ab3a6306
+Phase 3.1 Commit Multi Column Macros | Checksum: 248082d8c
 
-Time (s): cpu = 00:02:08 ; elapsed = 00:00:55 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7290 ; free virtual = 24033
+Time (s): cpu = 00:01:42 ; elapsed = 00:00:37 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23489 ; free virtual = 34191
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1cc5a318b
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1f65e9a4a
 
-Time (s): cpu = 00:02:11 ; elapsed = 00:00:56 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7305 ; free virtual = 24032
+Time (s): cpu = 00:01:45 ; elapsed = 00:00:38 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23494 ; free virtual = 34189
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: 13c27514e
+Phase 3.3 Area Swap Optimization | Checksum: 1cb4eb36c
 
-Time (s): cpu = 00:02:13 ; elapsed = 00:00:57 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7306 ; free virtual = 24031
+Time (s): cpu = 00:01:45 ; elapsed = 00:00:39 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23512 ; free virtual = 34194
 
 Phase 3.4 Small Shape DP
 
 Phase 3.4.1 Small Shape Clustering
-Phase 3.4.1 Small Shape Clustering | Checksum: 163d7879a
+Phase 3.4.1 Small Shape Clustering | Checksum: 17ed2b30b
 
-Time (s): cpu = 00:02:17 ; elapsed = 00:01:01 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7256 ; free virtual = 23983
+Time (s): cpu = 00:01:49 ; elapsed = 00:00:42 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23359 ; free virtual = 34096
 
 Phase 3.4.2 Flow Legalize Slice Clusters
-Phase 3.4.2 Flow Legalize Slice Clusters | Checksum: 15bd2ec88
+Phase 3.4.2 Flow Legalize Slice Clusters | Checksum: 184d883d5
 
-Time (s): cpu = 00:02:18 ; elapsed = 00:01:02 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7250 ; free virtual = 23977
+Time (s): cpu = 00:01:50 ; elapsed = 00:00:43 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23340 ; free virtual = 34093
 
 Phase 3.4.3 Slice Area Swap
-Phase 3.4.3 Slice Area Swap | Checksum: 167d0097e
+Phase 3.4.3 Slice Area Swap | Checksum: 141fb596d
 
-Time (s): cpu = 00:02:22 ; elapsed = 00:01:05 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7209 ; free virtual = 23942
-Phase 3.4 Small Shape DP | Checksum: 200971c79
+Time (s): cpu = 00:01:53 ; elapsed = 00:00:45 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23314 ; free virtual = 34057
+Phase 3.4 Small Shape DP | Checksum: 1ddb06e7b
 
-Time (s): cpu = 00:02:31 ; elapsed = 00:01:09 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7210 ; free virtual = 23958
+Time (s): cpu = 00:02:00 ; elapsed = 00:00:48 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23368 ; free virtual = 34098
 
 Phase 3.5 Re-assign LUT pins
-Phase 3.5 Re-assign LUT pins | Checksum: 1bd8feba8
+Phase 3.5 Re-assign LUT pins | Checksum: 1b396ff5f
 
-Time (s): cpu = 00:02:32 ; elapsed = 00:01:10 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7196 ; free virtual = 23965
+Time (s): cpu = 00:02:01 ; elapsed = 00:00:49 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23382 ; free virtual = 34095
 
 Phase 3.6 Pipeline Register Optimization
-Phase 3.6 Pipeline Register Optimization | Checksum: 1257fac78
+Phase 3.6 Pipeline Register Optimization | Checksum: 2218878e9
 
-Time (s): cpu = 00:02:33 ; elapsed = 00:01:11 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7196 ; free virtual = 23965
-Phase 3 Detail Placement | Checksum: 1257fac78
+Time (s): cpu = 00:02:01 ; elapsed = 00:00:49 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23382 ; free virtual = 34095
+Phase 3 Detail Placement | Checksum: 2218878e9
 
-Time (s): cpu = 00:02:33 ; elapsed = 00:01:11 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7213 ; free virtual = 23966
+Time (s): cpu = 00:02:02 ; elapsed = 00:00:50 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23371 ; free virtual = 34095
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -499,7 +499,7 @@ Phase 4.1 Post Commit Optimization
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 4.1.1 Post Placement Optimization
-Post Placement Optimization Initialization | Checksum: 1c60eba7e
+Post Placement Optimization Initialization | Checksum: b955eb44
 
 Phase 4.1.1.1 BUFG Insertion
 
@@ -507,70 +507,70 @@ Starting Physical Synthesis Task
 
 Phase 1 Physical Synthesis Initialization
 INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 8 CPUs
-INFO: [Physopt 32-619] Estimated Timing Summary | WNS=1.611 | TNS=0.000 |
-Phase 1 Physical Synthesis Initialization | Checksum: 1c65855cb
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=1.414 | TNS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: e19ad090
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7131 ; free virtual = 23951
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23438 ; free virtual = 34161
 INFO: [Place 46-35] Processed net design_1_i/xdma_0/inst/pcie4_ip_i/inst/user_reset, inserted BUFG to drive 3821 loads.
 INFO: [Place 46-45] Replicated bufg driver design_1_i/xdma_0/inst/pcie4_ip_i/inst/user_reset_reg_replica
 INFO: [Place 46-56] BUFG insertion identified 1 candidate nets. Inserted BUFG: 1, Replicated BUFG Driver: 1, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
-Ending Physical Synthesis Task | Checksum: 180905986
+Ending Physical Synthesis Task | Checksum: 19d67abe7
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7111 ; free virtual = 23927
-Phase 4.1.1.1 BUFG Insertion | Checksum: 140a6af6d
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23430 ; free virtual = 34152
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1b8636041
 
-Time (s): cpu = 00:02:52 ; elapsed = 00:01:18 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7111 ; free virtual = 23927
-INFO: [Place 30-746] Post Placement Timing Summary WNS=1.611. For the most accurate timing information please run report_timing.
-Phase 4.1.1 Post Placement Optimization | Checksum: 187510294
+Time (s): cpu = 00:02:18 ; elapsed = 00:00:55 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23432 ; free virtual = 34154
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.414. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 1e621fe32
 
-Time (s): cpu = 00:02:52 ; elapsed = 00:01:18 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7116 ; free virtual = 23930
-Phase 4.1 Post Commit Optimization | Checksum: 187510294
+Time (s): cpu = 00:02:19 ; elapsed = 00:00:56 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23432 ; free virtual = 34152
+Phase 4.1 Post Commit Optimization | Checksum: 1e621fe32
 
-Time (s): cpu = 00:02:52 ; elapsed = 00:01:18 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7115 ; free virtual = 23930
+Time (s): cpu = 00:02:19 ; elapsed = 00:00:56 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23432 ; free virtual = 34152
 
 Phase 4.2 Post Placement Cleanup
-Phase 4.2 Post Placement Cleanup | Checksum: 187510294
+Phase 4.2 Post Placement Cleanup | Checksum: 1e621fe32
 
-Time (s): cpu = 00:02:53 ; elapsed = 00:01:19 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7126 ; free virtual = 23938
-Netlist sorting complete. Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.11 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6991 ; free virtual = 23867
+Time (s): cpu = 00:02:19 ; elapsed = 00:00:56 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23447 ; free virtual = 34165
+Netlist sorting complete. Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.10 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23425 ; free virtual = 34126
 
 Phase 4.3 Placer Reporting
-Phase 4.3 Placer Reporting | Checksum: 1c6f470c8
+Phase 4.3 Placer Reporting | Checksum: 22a79db3f
 
-Time (s): cpu = 00:03:00 ; elapsed = 00:01:26 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7014 ; free virtual = 23867
+Time (s): cpu = 00:02:25 ; elapsed = 00:01:02 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23412 ; free virtual = 34129
 
 Phase 4.4 Final Placement Cleanup
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7014 ; free virtual = 23866
-Phase 4.4 Final Placement Cleanup | Checksum: 14a97ce6a
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23412 ; free virtual = 34129
+Phase 4.4 Final Placement Cleanup | Checksum: 20fd4871a
 
-Time (s): cpu = 00:03:00 ; elapsed = 00:01:26 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7006 ; free virtual = 23862
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: 14a97ce6a
+Time (s): cpu = 00:02:25 ; elapsed = 00:01:02 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23412 ; free virtual = 34129
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 20fd4871a
 
-Time (s): cpu = 00:03:00 ; elapsed = 00:01:26 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7004 ; free virtual = 23860
-Ending Placer Task | Checksum: dcb6e81b
+Time (s): cpu = 00:02:25 ; elapsed = 00:01:02 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23412 ; free virtual = 34129
+Ending Placer Task | Checksum: 14903ed35
 
-Time (s): cpu = 00:03:00 ; elapsed = 00:01:26 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7001 ; free virtual = 23858
+Time (s): cpu = 00:02:25 ; elapsed = 00:01:02 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23412 ; free virtual = 34129
 INFO: [Common 17-83] Releasing license: Implementation
 83 Infos, 6 Warnings, 18 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:03:05 ; elapsed = 00:01:29 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7123 ; free virtual = 23980
+place_design: Time (s): cpu = 00:02:28 ; elapsed = 00:01:04 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23533 ; free virtual = 34250
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 7025 ; free virtual = 23957
-INFO: [Common 17-1381] The checkpoint '/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/impl_1/design_1_wrapper_placed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6924 ; free virtual = 23887
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23462 ; free virtual = 34225
+INFO: [Common 17-1381] The checkpoint '/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/impl_1/design_1_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23564 ; free virtual = 34275
 INFO: [runtcl-4] Executing : report_io -file design_1_wrapper_io_placed.rpt
-report_io: Time (s): cpu = 00:00:00.21 ; elapsed = 00:00:00.36 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6881 ; free virtual = 23845
+report_io: Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.23 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23523 ; free virtual = 34234
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_placed.rpt -pb design_1_wrapper_utilization_placed.pb
 INFO: [runtcl-4] Executing : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
-report_control_sets: Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.29 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6920 ; free virtual = 23877
+report_control_sets: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.24 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23535 ; free virtual = 34253
 Command: phys_opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xczu11eg'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu11eg'
-INFO: [Common 17-86] Your Implementation license expires in 6 day(s)
+INFO: [Common 17-86] Your Implementation license expires in 18 day(s)
 INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
 INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
 INFO: [Common 17-83] Releasing license: Implementation
@@ -581,13 +581,13 @@ Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6633 ; free virtual = 23861
-INFO: [Common 17-1381] The checkpoint '/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/impl_1/design_1_wrapper_physopt.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6669 ; free virtual = 23870
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23439 ; free virtual = 34223
+INFO: [Common 17-1381] The checkpoint '/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/impl_1/design_1_wrapper_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23498 ; free virtual = 34232
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xczu11eg'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu11eg'
-INFO: [Common 17-86] Your Implementation license expires in 6 day(s)
+INFO: [Common 17-86] Your Implementation license expires in 18 day(s)
 Running DRC as a precondition to command route_design
 INFO: [DRC 23-27] Running DRC with 8 threads
 INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
@@ -596,47 +596,47 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 
 Starting Routing Task
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
-Checksum: PlaceDB: 81c93244 ConstDB: 0 ShapeSum: 1b4a47a3 RouteDB: 3fa36e34
+Checksum: PlaceDB: e961c885 ConstDB: 0 ShapeSum: 1b4a47a3 RouteDB: 4457dd0d
 
 Phase 1 Build RT Design
-Nodegraph reading from file.  Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.63 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6625 ; free virtual = 23741
-Phase 1 Build RT Design | Checksum: ac254edb
+Nodegraph reading from file.  Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.59 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23278 ; free virtual = 34040
+Phase 1 Build RT Design | Checksum: 183ee7f31
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6565 ; free virtual = 23674
-Post Restoration Checksum: NetGraph: 47111cf3 NumContArr: 5874f519 Constraints: 69a8c9fa Timing: 0
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23249 ; free virtual = 33989
+Post Restoration Checksum: NetGraph: 6d871401 NumContArr: 16b85956 Constraints: cdee3ce3 Timing: 0
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
-Phase 2.1 Create Timer | Checksum: 1092edc06
+Phase 2.1 Create Timer | Checksum: 1522daa3a
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6605 ; free virtual = 23724
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23258 ; free virtual = 33999
 
 Phase 2.2 Fix Topology Constraints
-Phase 2.2 Fix Topology Constraints | Checksum: 1092edc06
+Phase 2.2 Fix Topology Constraints | Checksum: 1522daa3a
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6532 ; free virtual = 23649
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23134 ; free virtual = 33892
 
 Phase 2.3 Pre Route Cleanup
-Phase 2.3 Pre Route Cleanup | Checksum: 1092edc06
+Phase 2.3 Pre Route Cleanup | Checksum: 1522daa3a
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6532 ; free virtual = 23649
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23141 ; free virtual = 33906
 
 Phase 2.4 Global Clock Net Routing
  Number of Nodes with overlaps = 0
-Phase 2.4 Global Clock Net Routing | Checksum: b22ec8f3
+Phase 2.4 Global Clock Net Routing | Checksum: 136aa6a82
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6531 ; free virtual = 23639
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23078 ; free virtual = 33884
 
 Phase 2.5 Update Timing
-Phase 2.5 Update Timing | Checksum: 14755e019
+Phase 2.5 Update Timing | Checksum: 1b829ab15
 
-Time (s): cpu = 00:00:29 ; elapsed = 00:00:12 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6526 ; free virtual = 23623
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.867  | TNS=0.000  | WHS=-0.380 | THS=-225.181|
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:10 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23088 ; free virtual = 33869
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.644  | TNS=0.000  | WHS=-0.345 | THS=-219.833|
 
-Phase 2 Router Initialization | Checksum: 15136790a
+Phase 2 Router Initialization | Checksum: 220658fe8
 
-Time (s): cpu = 00:00:47 ; elapsed = 00:00:17 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6435 ; free virtual = 23632
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:13 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23075 ; free virtual = 33849
 
 Router Utilization Summary
   Global Vertical Routing Utilization    = 0 %
@@ -644,91 +644,92 @@ Router Utilization Summary
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
-  Number of Failed Nets               = 46071
+  Number of Failed Nets               = 46087
     (Failed Nets is the sum of unrouted and partially routed nets)
-  Number of Unrouted Nets             = 37287
-  Number of Partially Routed Nets     = 8784
+  Number of Unrouted Nets             = 37309
+  Number of Partially Routed Nets     = 8778
   Number of Node Overlaps             = 0
 
 
 Phase 3 Initial Routing
-Phase 3 Initial Routing | Checksum: 262a87215
+Phase 3 Initial Routing | Checksum: 2589fc181
 
-Time (s): cpu = 00:01:02 ; elapsed = 00:00:23 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6425 ; free virtual = 23627
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:18 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23054 ; free virtual = 33811
 
 Phase 4 Rip-up And Reroute
 
 Phase 4.1 Global Iteration 0
- Number of Nodes with overlaps = 8914
- Number of Nodes with overlaps = 727
- Number of Nodes with overlaps = 81
- Number of Nodes with overlaps = 11
- Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 9255
+ Number of Nodes with overlaps = 726
+ Number of Nodes with overlaps = 98
+ Number of Nodes with overlaps = 13
+ Number of Nodes with overlaps = 6
  Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 3
  Number of Nodes with overlaps = 1
  Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.373  | TNS=0.000  | WHS=-0.045 | THS=-0.926 |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.991  | TNS=0.000  | WHS=-0.052 | THS=-0.481 |
 
-Phase 4.1 Global Iteration 0 | Checksum: 255d1cc79
+Phase 4.1 Global Iteration 0 | Checksum: 1e486e737
 
-Time (s): cpu = 00:02:19 ; elapsed = 00:00:53 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6317 ; free virtual = 23604
+Time (s): cpu = 00:01:53 ; elapsed = 00:00:40 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23009 ; free virtual = 33758
 
 Phase 4.2 Global Iteration 1
- Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 6
  Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.373  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.991  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 4.2 Global Iteration 1 | Checksum: 12c063fca
+Phase 4.2 Global Iteration 1 | Checksum: 1b0eafa60
 
-Time (s): cpu = 00:02:25 ; elapsed = 00:00:56 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6347 ; free virtual = 23620
-Phase 4 Rip-up And Reroute | Checksum: 12c063fca
+Time (s): cpu = 00:01:58 ; elapsed = 00:00:42 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23030 ; free virtual = 33781
+Phase 4 Rip-up And Reroute | Checksum: 1b0eafa60
 
-Time (s): cpu = 00:02:25 ; elapsed = 00:00:56 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6347 ; free virtual = 23620
+Time (s): cpu = 00:01:58 ; elapsed = 00:00:42 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23030 ; free virtual = 33781
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
 
 Phase 5.1.1 Update Timing
-Phase 5.1.1 Update Timing | Checksum: 194600f78
+Phase 5.1.1 Update Timing | Checksum: 2aec3a9f4
 
-Time (s): cpu = 00:02:35 ; elapsed = 00:00:59 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6366 ; free virtual = 23622
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.373  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+Time (s): cpu = 00:02:06 ; elapsed = 00:00:45 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23123 ; free virtual = 33853
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.991  | TNS=0.000  | WHS=0.010  | THS=0.000  |
 
-Phase 5.1 Delay CleanUp | Checksum: 194600f78
+Phase 5.1 Delay CleanUp | Checksum: 2aec3a9f4
 
-Time (s): cpu = 00:02:35 ; elapsed = 00:01:00 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6366 ; free virtual = 23622
+Time (s): cpu = 00:02:06 ; elapsed = 00:00:45 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23123 ; free virtual = 33853
 
 Phase 5.2 Clock Skew Optimization
-Phase 5.2 Clock Skew Optimization | Checksum: 194600f78
+Phase 5.2 Clock Skew Optimization | Checksum: 2aec3a9f4
 
-Time (s): cpu = 00:02:35 ; elapsed = 00:01:00 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6366 ; free virtual = 23622
-Phase 5 Delay and Skew Optimization | Checksum: 194600f78
+Time (s): cpu = 00:02:06 ; elapsed = 00:00:45 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23123 ; free virtual = 33853
+Phase 5 Delay and Skew Optimization | Checksum: 2aec3a9f4
 
-Time (s): cpu = 00:02:35 ; elapsed = 00:01:00 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6366 ; free virtual = 23622
+Time (s): cpu = 00:02:06 ; elapsed = 00:00:45 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23123 ; free virtual = 33853
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 
 Phase 6.1.1 Update Timing
-Phase 6.1.1 Update Timing | Checksum: 149f16048
+Phase 6.1.1 Update Timing | Checksum: 299db0e9c
 
-Time (s): cpu = 00:02:42 ; elapsed = 00:01:02 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6320 ; free virtual = 23593
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.373  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+Time (s): cpu = 00:02:11 ; elapsed = 00:00:47 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23114 ; free virtual = 33844
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.991  | TNS=0.000  | WHS=0.010  | THS=0.000  |
 
-Phase 6.1 Hold Fix Iter | Checksum: 1bdb6fbfb
+Phase 6.1 Hold Fix Iter | Checksum: 239b3cfbc
 
-Time (s): cpu = 00:02:42 ; elapsed = 00:01:02 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6320 ; free virtual = 23593
-Phase 6 Post Hold Fix | Checksum: 1bdb6fbfb
+Time (s): cpu = 00:02:12 ; elapsed = 00:00:47 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23114 ; free virtual = 33844
+Phase 6 Post Hold Fix | Checksum: 239b3cfbc
 
-Time (s): cpu = 00:02:43 ; elapsed = 00:01:03 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6320 ; free virtual = 23593
+Time (s): cpu = 00:02:12 ; elapsed = 00:00:47 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23114 ; free virtual = 33844
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 2.05138 %
-  Global Horizontal Routing Utilization  = 2.32013 %
+  Global Vertical Routing Utilization    = 2.33449 %
+  Global Horizontal Routing Utilization  = 2.3218 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -738,59 +739,59 @@ Router Utilization Summary
   Number of Partially Routed Nets     = 0
   Number of Node Overlaps             = 0
 
-Phase 7 Route finalize | Checksum: 1fa14c501
+Phase 7 Route finalize | Checksum: 1fc948637
 
-Time (s): cpu = 00:02:43 ; elapsed = 00:01:03 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6317 ; free virtual = 23590
+Time (s): cpu = 00:02:12 ; elapsed = 00:00:48 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23099 ; free virtual = 33836
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: 1fa14c501
+Phase 8 Verifying routed nets | Checksum: 1fc948637
 
-Time (s): cpu = 00:02:43 ; elapsed = 00:01:03 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6311 ; free virtual = 23584
+Time (s): cpu = 00:02:12 ; elapsed = 00:00:48 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23094 ; free virtual = 33831
 
 Phase 9 Depositing Routes
-Phase 9 Depositing Routes | Checksum: 1fa14c501
+Phase 9 Depositing Routes | Checksum: 1fc948637
 
-Time (s): cpu = 00:02:45 ; elapsed = 00:01:05 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6322 ; free virtual = 23577
+Time (s): cpu = 00:02:14 ; elapsed = 00:00:49 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23103 ; free virtual = 33836
 
 Phase 10 Post Router Timing
-INFO: [Route 35-57] Estimated Timing Summary | WNS=1.373  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.991  | TNS=0.000  | WHS=0.010  | THS=0.000  |
 
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
-Phase 10 Post Router Timing | Checksum: 1fa14c501
+Phase 10 Post Router Timing | Checksum: 1fc948637
 
-Time (s): cpu = 00:02:46 ; elapsed = 00:01:05 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6329 ; free virtual = 23584
+Time (s): cpu = 00:02:14 ; elapsed = 00:00:50 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23106 ; free virtual = 33838
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:02:46 ; elapsed = 00:01:05 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6429 ; free virtual = 23684
+Time (s): cpu = 00:02:14 ; elapsed = 00:00:50 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23211 ; free virtual = 33943
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
 110 Infos, 6 Warnings, 18 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:02:51 ; elapsed = 00:01:08 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6429 ; free virtual = 23684
+route_design: Time (s): cpu = 00:02:19 ; elapsed = 00:00:52 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23211 ; free virtual = 33943
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6295 ; free virtual = 23640
-INFO: [Common 17-1381] The checkpoint '/home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/impl_1/design_1_wrapper_routed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6407 ; free virtual = 23688
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23091 ; free virtual = 33927
+INFO: [Common 17-1381] The checkpoint '/home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/impl_1/design_1_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 5083.848 ; gain = 0.000 ; free physical = 23204 ; free virtual = 33950
 INFO: [runtcl-4] Executing : report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
 Command: report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 8 threads
-INFO: [Coretcl 2-168] The results of DRC are in file /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/impl_1/design_1_wrapper_drc_routed.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/impl_1/design_1_wrapper_drc_routed.rpt.
 report_drc completed successfully
 INFO: [runtcl-4] Executing : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
 Command: report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 8 threads
-INFO: [Coretcl 2-1520] The results of Report Methodology are in file /home/bhashni/Desktop/Bootloader_scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/impl_1/design_1_wrapper_methodology_drc_routed.rpt.
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file /home/bhashini/Desktop/Bootloader_Scripting/Scripting/zynq_script/workdir/Calisto_P2/Calisto_P2.runs/impl_1/design_1_wrapper_methodology_drc_routed.rpt.
 report_methodology completed successfully
-report_methodology: Time (s): cpu = 00:00:29 ; elapsed = 00:00:08 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6376 ; free virtual = 23651
+report_methodology: Time (s): cpu = 00:00:26 ; elapsed = 00:00:06 . Memory (MB): peak = 5150.230 ; gain = 0.000 ; free physical = 23106 ; free virtual = 33918
 INFO: [runtcl-4] Executing : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 Command: report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 INFO: [Timing 38-35] Done setting XDC timing constraints.
@@ -801,7 +802,7 @@ WARNING: [Power 33-332] Found switching activity that implies high-fanout reset 
 Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
 122 Infos, 7 Warnings, 18 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
-report_power: Time (s): cpu = 00:00:24 ; elapsed = 00:00:11 . Memory (MB): peak = 5300.789 ; gain = 0.000 ; free physical = 6268 ; free virtual = 23556
+report_power: Time (s): cpu = 00:00:21 ; elapsed = 00:00:10 . Memory (MB): peak = 5169.777 ; gain = 19.547 ; free physical = 23061 ; free virtual = 33844
 INFO: [runtcl-4] Executing : report_route_status -file design_1_wrapper_route_status.rpt -pb design_1_wrapper_route_status.pb
 INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file design_1_wrapper_timing_summary_routed.rpt -pb design_1_wrapper_timing_summary_routed.pb -rpx design_1_wrapper_timing_summary_routed.rpx -warn_on_violation 
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: I, Delay Type: min_max.
@@ -815,11 +816,11 @@ INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum o
 Command: write_bitstream -force design_1_wrapper.bit
 Attempting to get a license for feature 'Implementation' and/or device 'xczu11eg'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu11eg'
-INFO: [Common 17-86] Your Implementation license expires in 6 day(s)
+INFO: [Common 17-86] Your Implementation license expires in 18 day(s)
 Running DRC as a precondition to command write_bitstream
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 8 threads
-WARNING: [DRC RTSTAT-10] No routable loads: 264 net(s) have no routable loads. The problem bus(es) and/or net(s) are design_1_i/axi_interconnect_0/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i... and (the first 15 of 168 listed).
+WARNING: [DRC RTSTAT-10] No routable loads: 264 net(s) have no routable loads. The problem bus(es) and/or net(s) are design_1_i/axi_interconnect_0/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m01_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i... and (the first 15 of 168 listed).
 INFO: [DRC REQP-1858] RAMB36E2_writefirst_collision_advisory: Synchronous clocking is detected for BRAM (design_1_i/xdma_0/inst/pcie4_ip_i/inst/pcie_4_0_pipe_inst/pcie_4_0_bram_inst/RAM32K.bram_comp_inst/bram_16k_0_int/ECC_RAM.RAMB36E2[0].ramb36e2_inst) in SDP mode with WRITE_FIRST write-mode. It is strongly suggested to change this mode to NO_CHANGE for best power characteristics. However, both WRITE_FIRST and NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
 INFO: [DRC REQP-1858] RAMB36E2_writefirst_collision_advisory: Synchronous clocking is detected for BRAM (design_1_i/xdma_0/inst/pcie4_ip_i/inst/pcie_4_0_pipe_inst/pcie_4_0_bram_inst/RAM32K.bram_comp_inst/bram_16k_0_int/ECC_RAM.RAMB36E2[1].ramb36e2_inst) in SDP mode with WRITE_FIRST write-mode. It is strongly suggested to change this mode to NO_CHANGE for best power characteristics. However, both WRITE_FIRST and NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
 INFO: [DRC REQP-1858] RAMB36E2_writefirst_collision_advisory: Synchronous clocking is detected for BRAM (design_1_i/xdma_0/inst/pcie4_ip_i/inst/pcie_4_0_pipe_inst/pcie_4_0_bram_inst/RAM32K.bram_comp_inst/bram_16k_0_int/ECC_RAM.RAMB36E2[2].ramb36e2_inst) in SDP mode with WRITE_FIRST write-mode. It is strongly suggested to change this mode to NO_CHANGE for best power characteristics. However, both WRITE_FIRST and NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
@@ -856,5 +857,5 @@ INFO: [Vivado 12-1842] Bitgen Completed Successfully.
 INFO: [Common 17-83] Releasing license: Implementation
 163 Infos, 8 Warnings, 18 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:35 ; elapsed = 00:00:25 . Memory (MB): peak = 5469.504 ; gain = 168.715 ; free physical = 6002 ; free virtual = 23395
-INFO: [Common 17-206] Exiting Vivado at Mon Jan  6 16:44:53 2025...
+write_bitstream: Time (s): cpu = 00:00:28 ; elapsed = 00:00:21 . Memory (MB): peak = 5450.047 ; gain = 280.270 ; free physical = 22927 ; free virtual = 33748
+INFO: [Common 17-206] Exiting Vivado at Wed Feb  5 09:36:44 2025...

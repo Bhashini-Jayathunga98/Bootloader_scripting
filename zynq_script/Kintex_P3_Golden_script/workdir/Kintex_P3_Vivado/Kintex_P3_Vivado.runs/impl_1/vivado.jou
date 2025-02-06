@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Jan  6 17:01:51 2025
+# Process ID: 631530
+# Current directory: /home/bhashni/Desktop/Bootloader_scripting/Scripting/Kintex_P3_Golden_script/workdir/Kintex_P3_Vivado/Kintex_P3_Vivado.runs/impl_1
+# Command line: vivado -log Kintex_Golden_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Kintex_Golden_wrapper.tcl -notrace
+# Log file: /home/bhashni/Desktop/Bootloader_scripting/Scripting/Kintex_P3_Golden_script/workdir/Kintex_P3_Vivado/Kintex_P3_Vivado.runs/impl_1/Kintex_Golden_wrapper.vdi
+# Journal file: /home/bhashni/Desktop/Bootloader_scripting/Scripting/Kintex_P3_Golden_script/workdir/Kintex_P3_Vivado/Kintex_P3_Vivado.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Kintex_Golden_wrapper.tcl -notrace
